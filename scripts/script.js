@@ -1,9 +1,17 @@
-for (let i = 1; i <= 10; i++) {
-    console.log(2**i);
-}
+// for (let i = 1; i <= 10; i++) {
+//     console.log(2**i);
+// }
 
-let i = 1;
-while (i <= 10) {
-    i = i + 1
-    console.log(2**i);
-}
+// let i = 1;
+// while (i <= 10) {
+//     i = i + 1
+//     console.log(2**i);
+// }
+let input;
+do {
+    input = prompt("What is your name");
+} while(!isNaN(Number(input))); 
+
+// alert("Hello " + input);
+
+alert(`Hello ${input}`) 
