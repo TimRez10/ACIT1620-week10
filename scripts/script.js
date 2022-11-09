@@ -17,14 +17,23 @@
 
 // alert(`Hello ${input}`) 
 
-let fruits = ['Banana','Apple']
-fruits.push('Orange')
-fruits.unshift('Mango')
-console.log(fruits)
+// let fruits = ['Banana','Apple']
+// fruits.push('Orange')
+// fruits.unshift('Mango')
+// console.log(fruits)
 
-for (let i = 0; i < fruits.length; i++) {
-    console.log(fruits[i])
+// for (let i = 0; i < fruits.length; i++) {
+//     console.log(fruits[i])
+// }
+// for ( let item of fruits) {
+//     console.log(item)
+// }
+
+const person = {
+    name:['Timur', 'Reziapov'],
+    age:32,
+    gender:'male',
+    hobbies :['music', 'skiing']
 }
-for ( let item of fruits) {
-    console.log(item)
-}
+
+console.log(`my name is ${person.name[0]} ${person.name[1]}. I am interested in ${person.hobbies[0]} and ${person.hobbies[1]}`)
